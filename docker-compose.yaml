@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  myapp:
+    image: kanchanaporn/node
+    ports:
+      - "8000:8000"
+    command: "npm start"
+
+
+
