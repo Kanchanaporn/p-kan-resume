@@ -5,7 +5,6 @@ services:
     build: .
     image: node-example
     container_name: node-example
-    image: kanchanaporn/node
     ports:
       - "8000:8000"
     command: "npm start"
